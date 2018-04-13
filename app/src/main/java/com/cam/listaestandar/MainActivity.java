@@ -45,7 +45,7 @@ public List<Item> lista;
         //ADAPTADOR
         //ArrayAdapter arrayAdapter= new ArrayAdapter(MainActivity.this,
           //      android.R.layout.simple_list_item_1,lista);
-        final MiAdapter arrayAdapter = new MiAdapter(MainActivity.this,
+        MiAdapter arrayAdapter = new MiAdapter(MainActivity.this,
                 R.layout.itemlist,lista);
         //ASIGNAR ADAPTADOR
         lvLista.setAdapter(arrayAdapter);
